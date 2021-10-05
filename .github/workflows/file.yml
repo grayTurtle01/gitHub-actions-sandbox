@@ -3,6 +3,8 @@ name: MyWorkFlow
 on:
   push:
     branches: [ main, dev ]
+  schedule:
+    - cron: '*/5 * * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -14,9 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run a one-line script
-        run: echo Hello, Github-Actions!
-
-      - name: Show directory
-        run: pwd
+      - name: Print time
+        run: date
       

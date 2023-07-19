@@ -14,3 +14,15 @@ on:
        - dev
 
 ```
+```
+on:
+  push:
+    branches: [main, dev]
+
+```
+## On pull request
+```
+on:
+  pull_request:
+    branches: [ main ]
+```

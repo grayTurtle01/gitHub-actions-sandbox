@@ -6,14 +6,14 @@ on:
        
 
 jobs:
-  build_2:
+  build_3:
   
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Comandos multiples II
+      - name: Python Tests 
         run: | 
          python --version
          python tests.py

@@ -1,5 +1,9 @@
 name: Hola Python
-on: push
+on: 
+  push:
+    branches: 
+      - master
+       
 
 jobs:
   build_2:

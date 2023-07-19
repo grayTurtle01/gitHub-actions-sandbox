@@ -11,6 +11,9 @@ jobs:
 
     steps:
 
+      - name: "Copy repo to VM"
+        uses: actions/checkout@v2
+
       - name: "Run Multi Lines"
         run: | 
           echo "Hello x"

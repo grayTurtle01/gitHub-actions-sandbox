@@ -1,0 +1,15 @@
+{
+  "name": "github-actions-sandbox",
+  "version": "1.0.0",
+  "description": "## Hello gitHub Actions ``` name: My First WorkFlow",
+  "main": "file.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "python file.py"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

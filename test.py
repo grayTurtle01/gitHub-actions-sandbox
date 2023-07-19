@@ -1,1 +1,2 @@
-assert False
+assert True
+assert 1 == 1

@@ -11,10 +11,9 @@ jobs:
 
     steps:
  
-      - name: "Greetings with echo"
-        run: echo "Hello gitHub"
-        
-      - name: "Show python version"
-      	run: python --version
-        
+      - name: "Run Multi Lines"
+        run: | 
+        echo "Hello gitHub"
+        python --version
+          
       

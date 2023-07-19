@@ -3,9 +3,9 @@
 ## Hello gitHub Actions
 ```
 name: My First WorkFlow
-on: 
-  push:
-    branches: [ main ]
+
+on:
+  push
        
 jobs:
   task_0:

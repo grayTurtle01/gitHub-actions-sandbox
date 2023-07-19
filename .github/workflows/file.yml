@@ -2,7 +2,7 @@ name: My First WorkFlow
 
 on: 
   push:
-    branches: [ main ]
+    branches: [ dev ]
        
 
 jobs:

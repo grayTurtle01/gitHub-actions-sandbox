@@ -2,7 +2,7 @@ name: Hola Python
 on: 
   push:
     branches: 
-      - master
+      - main
        
 
 jobs:

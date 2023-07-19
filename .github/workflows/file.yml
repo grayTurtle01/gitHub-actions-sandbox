@@ -1,14 +1,14 @@
-name: name_tag
+name: Hola Python
 on: push
 
 jobs:
-
-  build:
+  build_2:
+  
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Saludar
-        run: echo "hola github-actions"
+      - name: Mostrar version de Python
+        run: python --version
       

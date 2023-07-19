@@ -12,6 +12,9 @@ jobs:
     steps:
  
       - name: "Greetings with echo"
-        run: python --version
+        run: echo "Hello gitHub"
+        
+      - name: "Show python version"
+      	run: python --version
         
       

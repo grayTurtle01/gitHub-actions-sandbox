@@ -15,5 +15,5 @@ jobs:
       - name: Python Tests 
         run: | 
          python --version
-         python tests.py
+         python test.py
       

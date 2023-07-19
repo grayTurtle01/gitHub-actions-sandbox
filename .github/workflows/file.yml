@@ -16,5 +16,5 @@ jobs:
       - name: Hello Node
         run: | 
          node --version
-         python test.py
+         node file.js
       

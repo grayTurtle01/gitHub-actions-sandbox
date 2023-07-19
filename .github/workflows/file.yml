@@ -1,8 +1,7 @@
 name: Hola Python
 on: 
   push:
-    branches: 
-      - main
+    branches: [ main, dev]
        
 
 jobs:

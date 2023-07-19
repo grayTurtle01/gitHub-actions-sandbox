@@ -16,5 +16,5 @@ jobs:
       - name: Comandos multiples II
         run: | 
          python --version
-         python file.py
+         python tests.py
       

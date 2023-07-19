@@ -1,16 +1,16 @@
-name: Mi Primer WorkFlow
+name: My First WorkFlow
 on: 
   push:
     branches: [ main ]
        
 
 jobs:
-  tarea_0:
+  task_0:
   
     runs-on: ubuntu-latest
 
     steps:
  
-      - name: Saludar con echo
-        run: echo "Hola gitHub actions"
+      - name: Greetings with echo
+        run: echo "Hello gitHub actions"
       

@@ -1,10 +1,16 @@
 # gitHub-Actions Sandbox 🧪 
 
-## Works Flows
-* CI
-* MyWorkFlow
+## Triggers all push
+```
+on: push
+```
 
-### MyWorkFlow
-stpes:
-- echo "Hello github-action"
-- pwd
+## Triggers on branch push
+```
+on:
+  push:
+    branches:
+       - main
+       - dev
+
+```

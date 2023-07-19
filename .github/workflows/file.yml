@@ -10,5 +10,5 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Mostrar version de Python
-        run: python --version
+        run: python file.py
       

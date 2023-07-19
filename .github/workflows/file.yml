@@ -12,6 +12,8 @@ jobs:
     steps:
 
       - name: "Run Multi Lines"
-        run: echo "Hello x"
+        run: | 
+          echo "Hello x"
+          python --version
           
       

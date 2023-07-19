@@ -12,6 +12,6 @@ jobs:
     steps:
  
       - name: "Greetings with echo"
-        run: echo "Hello gitHub actions"
+        run: python --version
         
       

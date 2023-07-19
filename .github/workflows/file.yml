@@ -1,19 +1,14 @@
-name: MyWorkFlow
-
-on:
-  schedule:
-    - cron: '40 9 5 10 2'
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+name: name_tag
+on: push
 
 jobs:
+
   build:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
 
-      - name: Print time
-        run: date
+      - name: Saludar
+        run: echo "hola github-actions"
       

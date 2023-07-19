@@ -1,19 +1,20 @@
-name: Hola Python
+name: Hola Node
 on: 
   push:
     branches: [ main, dev]
        
 
 jobs:
-  build_3:
+  build_4:
   
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
 
-      - name: Python Tests 
+      - name: Hello Node
         run: | 
-         python --version
+         node --version
          python test.py
       

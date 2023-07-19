@@ -1,4 +1,4 @@
-# gitHub Actions Sandbox 🧪 
+# gitHub-Actions Sandbox 🧪 
 
 ## Works Flows
 * CI

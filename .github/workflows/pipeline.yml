@@ -22,4 +22,7 @@ jobs:
 
       - name: 'Show node version'
         run: 'node --version'
+
+      - name: 'Run Tests'
+        run: 'npm run test'
       

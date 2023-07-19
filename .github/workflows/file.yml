@@ -11,12 +11,12 @@ jobs:
 
     steps:
  
-      - name: Greetings with echo
+      - name: "Greetings with echo"
         run: echo "Hello gitHub actions"
         
-      - name: Show python version
+      - name: "Show python version"
       	run: python --version
       	
-      - name: Show files
+      - name: "Show files"
       	run: ls -l
       

@@ -17,8 +17,8 @@ jobs:
       - name: 'Node environment'
         uses: actions/setup-node@v2
         
-      - name: 'Install dependencies'
-        run: "npm install"
+      - name: 'Install  Noe dependencies'
+        run: "npm install --no-audit no-fund --no-optional"
 
       - name: 'Show node version'
         run: 'node --version'

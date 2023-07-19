@@ -10,12 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
- 
- 			
- 
+
       - name: "Run Multi Lines"
-        run: | 
-        	echo "Hello gitHub"
-       		python --version
+        run: echo "Hello x"
           
       

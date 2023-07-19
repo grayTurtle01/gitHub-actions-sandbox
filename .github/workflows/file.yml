@@ -15,5 +15,7 @@ jobs:
         run: | 
           echo "Hello x"
           python --version
-          
+
+      - name: "Print files"
+        run: ls -l
       

@@ -9,6 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Comandos multiples
-        run: python -v && python file.py
+      - name: Comandos multiples II
+        run: | 
+         python --version
+         python file.py
       

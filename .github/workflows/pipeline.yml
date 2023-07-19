@@ -25,4 +25,7 @@ jobs:
 
       - name: 'Run Tests'
         run: 'npm run test'
+
+      - name: "Linter"
+        run: 'npm run lint'
       

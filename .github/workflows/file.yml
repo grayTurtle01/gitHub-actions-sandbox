@@ -1,20 +1,16 @@
-name: Hola Node
+name: Mi Primer WorkFlow
 on: 
   push:
-    branches: [ main, dev]
+    branches: [ main ]
        
 
 jobs:
-  build_4:
+  tarea_0:
   
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-
-      - name: Hello Node
-        run: | 
-         node --version
-         node file.js
+ 
+      - name: Saludar con echo
+        run: echo "Hola gitHub actions"
       

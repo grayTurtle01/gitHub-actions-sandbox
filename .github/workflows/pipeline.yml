@@ -9,7 +9,7 @@ jobs:
 	tarea1: 
 		runs-on: ubuntu-latest
 		steps:
-			run: echo "Hello from tarea1"	
+			- run: echo "Hello from tarea1"	
 	
   build:
     runs-on: ubuntu-latest

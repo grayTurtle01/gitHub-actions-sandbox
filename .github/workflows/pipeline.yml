@@ -39,4 +39,4 @@ jobs:
     needs: [tarea1, build]
     runs-on: ubuntu-latest
     steps:
-      - run echo "Hello from tarea2"
+      - run: echo "Hello from tarea2"

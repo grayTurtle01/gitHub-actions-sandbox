@@ -34,3 +34,9 @@ jobs:
       - name: "Linter"
         run: 'npm run lint'
       
+
+  tarea2:
+    nedds: [tarea1, build]
+    runs-on: ubuntu-latest
+    steps:
+      - run echo "Hello from tarea2"

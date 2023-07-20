@@ -2,11 +2,15 @@ name: My Pipeline Workflow
 
 on: 
   push:
-    branches:
-      - "main"
+    branches: ["main"]
 
 
 jobs:
+	tarea1: 
+		runs-on: ubuntu-latest
+		steps:
+			run: echo "Hello from tarea1"	
+	
   build:
     runs-on: ubuntu-latest
 
@@ -17,7 +21,7 @@ jobs:
       - name: 'Node environment'
         uses: actions/setup-node@v2
         
-      - name: 'Install  Noe dependencies'
+      - name: 'Install  Node dependencies'
         run: "npm install --no-audit --no-fund --no-optional"
 
       - name: 'Show node version'
